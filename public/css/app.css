@@ -13617,8 +13617,8 @@ body {
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(2),
 .navbar-toggler span:nth-child(3) {
-  -webkit-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .navbar-toggler span:nth-child(2) {
@@ -13644,8 +13644,12 @@ body {
           transform: rotate(-45deg);
 }
 
+.close-btn svg {
+  width: 100%;
+}
+
 .view-content {
-  margin-top: 4%;
+  margin-top: 40px;
 }
 
 @-webkit-keyframes projnav {
@@ -13686,7 +13690,7 @@ body {
 }
 
 .project-list .row div {
-  margin-top: 4%;
+  margin-top: 40px;
 }
 
 .project-list .project-title {
@@ -13730,7 +13734,7 @@ body {
 }
 
 .project-nav {
-  margin-bottom: 2%;
+  margin-bottom: 20px;
 }
 
 .project-title {
@@ -13746,7 +13750,7 @@ body {
 }
 
 .project-info {
-  margin-top: 4%;
+  margin-top: 40px;
 }
 
 .project-info ul {
@@ -13758,7 +13762,13 @@ body {
 }
 
 .slick-initialized .slick-slide {
-  border: 1px solid #ccc;
+  border: 1px solid #e8e8e8;
+}
+
+.slick-next,
+.slick-prev {
+  width: 60px;
+  height: auto;
 }
 
 .slick-next:before,
@@ -13777,7 +13787,7 @@ body {
 }
 
 .slick-next {
-  right: -14px;
+  right: -54px;
 }
 
 .slick-next:before {
@@ -13835,6 +13845,48 @@ body {
 @media (min-width: 1200px) {
   .container {
     width: 1020px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-item {
+    text-align: right;
+  }
+
+  .nav-item a {
+    display: inline-block;
+  }
+
+  .navbar-nav {
+    padding-top: 22px;
+  }
+}
+
+@media (max-width: 620px) {
+  .slick-next,
+  .slick-prev {
+    width: 30px;
+    height: auto;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    width: 30px;
+  }
+
+  .slick-prev {
+    left: -25px;
+  }
+
+  .slick-next {
+    right: -25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar-toggler {
+    width: 40px;
+    top: 0;
   }
 }
 

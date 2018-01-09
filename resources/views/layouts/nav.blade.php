@@ -14,11 +14,7 @@
             </li>
 
             <li class="nav-item">
-                <router-link class="nav-link" to="/cv">CV</router-link>
-            </li>
-
-            <li class="nav-item">
-                <router-link class="nav-link" to="/resume">Resume</router-link>
+                <a class="nav-link" href="/hutchison-resume.pdf" target="_blank">Resume</a>
             </li>
 
             <li class="nav-item">

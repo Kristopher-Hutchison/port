@@ -69,10 +69,10 @@ body {
         &:nth-child(1),
         &:nth-child(2),
         &:nth-child(3) {
-            -webkit-transition: all .35s ease-in-out;
-            -moz-transition: all .35s ease-in-out;
-            -o-transition: all .35s ease-in-out;
-            transition: all .35s ease-in-out;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
         }
         &:nth-child(2) {
             top: 30px;
@@ -98,9 +98,13 @@ body {
     }
 }
 
+.close-btn svg {
+    width: 100%;
+}
+
 // Views 
 .view-content {
-    margin-top: 4%;
+    margin-top: 40px;
 }
 
 /////
@@ -115,7 +119,7 @@ body {
 .project-list {
     margin-top: 0;
     .row div {
-        margin-top: 4%;
+        margin-top: 40px;
     }
     .project-title {
         display: inline-block;
@@ -152,7 +156,7 @@ body {
     padding: 0;
 }
 .project-nav {
-    margin-bottom: 2%;
+    margin-bottom: 20px;
 }
 .project-title {
     align-items: center;
@@ -163,7 +167,7 @@ body {
     }
 }
 .project-info {
-    margin-top: 4%;
+    margin-top: 40px;
     ul {
         list-style: square;
     }
@@ -174,10 +178,12 @@ body {
 
 
 .slick-initialized .slick-slide {
-    border: 1px solid #ccc;
+    border: 1px solid #e8e8e8;
 }
 .slick-next,
 .slick-prev {
+    width: 60px; 
+    height: auto;
     &:before {
         display: block;
         width: 60px;
@@ -191,7 +197,7 @@ body {
     content: url('/images/prev.svg');
 }
 .slick-next {
-    right: -14px;
+    right: -54px;
 }
 .slick-next:before {
     content: url('/images/next.svg');
@@ -243,5 +249,44 @@ body {
     }
 }
 
+@media (max-width: 992px) {
+    .nav-item {
+        text-align: right;
+        a {
+            display: inline-block;
+        }
+    }
+    .navbar-nav {
+        padding-top: 22px;
+    }
+}
 
+@media (max-width: 620px) {
+    .slick-next,
+    .slick-prev {
+        width: 30px; 
+        height: auto;
+        &:before {
+            width: 30px;
+        }
+    }
+    .slick-prev {
+        left: -25px;
+    }
+    .slick-next {
+        right: -25px;
+    }
+}
 
+@media (max-width: 576px) {
+    // .portfolio-box {
+    //     padding: 0;
+    // }
+}
+
+@media (max-width: 450px) {
+    .navbar-toggler {
+        width: 40px;
+        top: 0;
+    }
+}

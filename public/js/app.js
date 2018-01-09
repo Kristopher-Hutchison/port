@@ -53870,7 +53870,7 @@ var render = function() {
             { staticClass: "project-link", attrs: { to: "/portfolio/cisco" } },
             [
               _c("h2", { staticClass: "project-title" }, [
-                _vm._v("Cisco - Infinite Video")
+                _vm._v("Cisco - Solutions")
               ]),
               _vm._v(" "),
               _c("img", { attrs: { src: "/images/cisco/cover.jpg" } })
@@ -53896,28 +53896,6 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("img", { attrs: { src: "/images/canned-pears/cover.jpg" } })
-            ]
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "col-md-4" },
-        [
-          _c(
-            "router-link",
-            {
-              staticClass: "project-link",
-              attrs: { to: "/portfolio/verizon-meet" }
-            },
-            [
-              _c("h2", { staticClass: "project-title" }, [
-                _vm._v("Verizon - Meet with Ease")
-              ]),
-              _vm._v(" "),
-              _c("img", { attrs: { src: "/images/verizon-meet/cover.jpg" } })
             ]
           )
         ],
@@ -54044,6 +54022,28 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("img", { attrs: { src: "/images/imbibe/cover.jpg" } })
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "col-md-4" },
+        [
+          _c(
+            "router-link",
+            {
+              staticClass: "project-link",
+              attrs: { to: "/portfolio/verizon-meet" }
+            },
+            [
+              _c("h2", { staticClass: "project-title" }, [
+                _vm._v("Verizon - Meet with Ease")
+              ]),
+              _vm._v(" "),
+              _c("img", { attrs: { src: "/images/verizon-meet/cover.jpg" } })
             ]
           )
         ],
@@ -54279,7 +54279,7 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
           _c("router-link", { attrs: { to: "/portfolio/sweetango" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
@@ -54291,7 +54291,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
           _c("router-link", { attrs: { to: "/portfolio/imbibe" } }, [
             _vm._v("\n                next "),
@@ -54310,7 +54310,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -54374,7 +54374,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [
         _vm._v("Naturipe Farms Website And CMS")
       ])
@@ -54449,9 +54449,16 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row project-info" }, [
       _c("div", { staticClass: "col" }, [
         _c("div", { staticClass: "btn btn-primary" }, [
-          _c("a", { attrs: { href: "", target: "_blank" } }, [
-            _vm._v("Visit Site")
-          ])
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://www.naturipefarms.com/",
+                target: "_blank"
+              }
+            },
+            [_vm._v("Visit Site")]
+          )
         ])
       ])
     ])
@@ -54665,7 +54672,7 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
           _c("router-link", { attrs: { to: "/portfolio/mwl" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
@@ -54677,7 +54684,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
           _c("router-link", { attrs: { to: "/portfolio/naturipe" } }, [
             _vm._v("\n                next "),
@@ -54696,7 +54703,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -54758,7 +54765,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [_vm._v("Sweetango Website")])
     ])
   },
@@ -54831,9 +54838,11 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row project-info" }, [
       _c("div", { staticClass: "col" }, [
         _c("div", { staticClass: "btn btn-primary" }, [
-          _c("a", { attrs: { href: "", target: "_blank" } }, [
-            _vm._v("Visit Site")
-          ])
+          _c(
+            "a",
+            { attrs: { href: "https://sweetango.com/", target: "_blank" } },
+            [_vm._v("Visit Site")]
+          )
         ])
       ])
     ])
@@ -55067,7 +55076,7 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
           _c("router-link", { attrs: { to: "/portfolio/mine" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
@@ -55079,7 +55088,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
           _c("router-link", { attrs: { to: "/portfolio/vmware" } }, [
             _vm._v("\n                next "),
@@ -55098,7 +55107,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -55162,9 +55171,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [
-        _vm._v("Califronia Table Grapes Website, CMS & Research Database")
+        _vm._v("California Table Grapes Website, CMS & Research Database")
       ])
     ])
   },
@@ -55237,9 +55246,16 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row project-info" }, [
       _c("div", { staticClass: "col" }, [
         _c("div", { staticClass: "btn btn-primary" }, [
-          _c("a", { attrs: { href: "", target: "_blank" } }, [
-            _vm._v("Visit Site")
-          ])
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://www.grapesfromcalifornia.com/",
+                target: "_blank"
+              }
+            },
+            [_vm._v("Visit Site")]
+          )
         ])
       ])
     ])
@@ -55452,7 +55468,7 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
           _c("router-link", { attrs: { to: "/portfolio/ctgc" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
@@ -55464,7 +55480,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
           _c("router-link", { attrs: { to: "/portfolio/cisco" } }, [
             _vm._v("\n                next "),
@@ -55483,7 +55499,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -55545,7 +55561,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [
         _vm._v("Dell EMC VMware Jedi Campaign")
       ])
@@ -55620,9 +55636,16 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row project-info" }, [
       _c("div", { staticClass: "col" }, [
         _c("div", { staticClass: "btn btn-primary" }, [
-          _c("a", { attrs: { href: "", target: "_blank" } }, [
-            _vm._v("Visit Site")
-          ])
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "https://experience-vmware.com/jedi/",
+                target: "_blank"
+              }
+            },
+            [_vm._v("Visit Site")]
+          )
         ])
       ])
     ])
@@ -55820,6 +55843,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
@@ -55836,7 +55864,7 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
           _c("router-link", { attrs: { to: "/portfolio/vmware" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
@@ -55848,7 +55876,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
           _c("router-link", { attrs: { to: "/portfolio/canned-pears" } }, [
             _vm._v("\n                next "),
@@ -55867,7 +55895,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -55906,7 +55934,11 @@ var render = function() {
           _c("slick", { ref: "slick" }, [
             _c("img", { attrs: { src: "/images/cisco/home.jpg" } }),
             _vm._v(" "),
-            _c("img", { attrs: { src: "/images/cisco/roi-calculator.jpg" } })
+            _c("img", { attrs: { src: "/images/cisco/roi-calculator.jpg" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/cisco/cisco-ericsson1.jpg" } }),
+            _vm._v(" "),
+            _c("img", { attrs: { src: "/images/cisco/cisco-ericsson2.jpg" } })
           ]),
           _vm._v(" "),
           _vm._m(1),
@@ -55927,10 +55959,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
-      _c("h2", { staticClass: "project-title" }, [
-        _vm._v("Cisco - Infinite Solutions")
-      ])
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
+      _c("h2", { staticClass: "project-title" }, [_vm._v("Cisco - Solutions")])
     ])
   },
   function() {
@@ -56000,7 +56030,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row project-info" }, [
-      _c("div", { staticClass: "col" }, [
+      _c("div", { staticClass: "col-sm-6 col-md-4" }, [
         _c("div", { staticClass: "btn btn-primary" }, [
           _c(
             "a",
@@ -56011,7 +56041,23 @@ var staticRenderFns = [
                 target: "_blank"
               }
             },
-            [_vm._v("Visit Site")]
+            [_vm._v("Visit Infinite Solutions")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-sm-6 col-md-4" }, [
+        _c("div", { staticClass: "btn btn-primary" }, [
+          _c(
+            "a",
+            {
+              attrs: {
+                href:
+                  "https://www.cisco.com/c/en/us/solutions/strategic-partners/cisco-ericsson-partnership.html",
+                target: "_blank"
+              }
+            },
+            [_vm._v("Visit Partnership")]
           )
         ])
       ])
@@ -56227,7 +56273,7 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
           _c("router-link", { attrs: { to: "/portfolio/cisco" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
@@ -56239,9 +56285,9 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
-          _c("router-link", { attrs: { to: "/portfolio/verizon-meet" } }, [
+          _c("router-link", { attrs: { to: "/portfolio/pear-reports" } }, [
             _vm._v("\n                next "),
             _c("span", { staticClass: "nav-anim" }, [_vm._v("→")])
           ])
@@ -56258,7 +56304,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -56320,7 +56366,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [_vm._v("PNW Canned Pears")])
     ])
   },
@@ -56393,9 +56439,16 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row project-info" }, [
       _c("div", { staticClass: "col" }, [
         _c("div", { staticClass: "btn btn-primary" }, [
-          _c("a", { attrs: { href: "", target: "_blank" } }, [
-            _vm._v("Visit Site")
-          ])
+          _c(
+            "a",
+            {
+              attrs: {
+                href: "http://pncps.fictiontribe.com/",
+                target: "_blank"
+              }
+            },
+            [_vm._v("Visit Site")]
+          )
         ])
       ])
     ])
@@ -56609,9 +56662,9 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
-          _c("router-link", { attrs: { to: "/portfolio/canned-pears" } }, [
+          _c("router-link", { attrs: { to: "/portfolio/imbibe" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
             _vm._v(" prev\n            ")
           ])
@@ -56621,9 +56674,9 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
-          _c("router-link", { attrs: { to: "/portfolio/pear-reports" } }, [
+          _c("router-link", { attrs: { to: "/portfolio/mine" } }, [
             _vm._v("\n                next "),
             _c("span", { staticClass: "nav-anim" }, [_vm._v("→")])
           ])
@@ -56640,7 +56693,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -56700,7 +56753,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [
         _vm._v("Verizon / Cisco - Meet With Ease")
       ])
@@ -56779,8 +56832,7 @@ var staticRenderFns = [
             "a",
             {
               attrs: {
-                href:
-                  "https://www.cisco.com/c/en/us/solutions/service-provider/infinite-solutions/index.html",
+                href: "https://federal.meetwithease.com/",
                 target: "_blank"
               }
             },
@@ -56999,9 +57051,9 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
-          _c("router-link", { attrs: { to: "/portfolio/verizon-meet" } }, [
+          _c("router-link", { attrs: { to: "/portfolio/canned-pears" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
             _vm._v(" prev\n            ")
           ])
@@ -57011,7 +57063,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
           _c(
             "router-link",
@@ -57034,7 +57086,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -57094,7 +57146,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [
         _vm._v("USA Pears International Reporting")
       ])
@@ -57169,9 +57221,11 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row project-info" }, [
       _c("div", { staticClass: "col" }, [
         _c("div", { staticClass: "btn btn-primary" }, [
-          _c("a", { attrs: { href: "", target: "_blank" } }, [
-            _vm._v("Visit Site")
-          ])
+          _c(
+            "a",
+            { attrs: { href: "http://usapearreports.com/", target: "_blank" } },
+            [_vm._v("Visit Site")]
+          )
         ])
       ])
     ])
@@ -57384,7 +57438,7 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
           _c("router-link", { attrs: { to: "/portfolio/pear-reports" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
@@ -57396,7 +57450,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
           _c("router-link", { attrs: { to: "/portfolio/mwl" } }, [
             _vm._v("\n                next "),
@@ -57415,7 +57469,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -57475,7 +57529,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [
         _vm._v("Verizon - Connectivity")
       ])
@@ -57777,7 +57831,7 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
           _c(
             "router-link",
@@ -57793,7 +57847,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
           _c("router-link", { attrs: { to: "/portfolio/sweetango" } }, [
             _vm._v("\n                next "),
@@ -57812,7 +57866,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -57878,7 +57932,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [
         _vm._v("Multnomah Whisky Library - Online Membership System")
       ])
@@ -58172,7 +58226,7 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
           _c("router-link", { attrs: { to: "/portfolio/naturipe" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
@@ -58184,9 +58238,9 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
-          _c("router-link", { attrs: { to: "/portfolio/mine" } }, [
+          _c("router-link", { attrs: { to: "/portfolio/verizon-meet" } }, [
             _vm._v("\n                next "),
             _c("span", { staticClass: "nav-anim" }, [_vm._v("→")])
           ])
@@ -58203,7 +58257,7 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-sm-1 text-right" },
+              { staticClass: "col-2 col-sm-1 text-right" },
               [
                 _c(
                   "router-link",
@@ -58265,7 +58319,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [
         _vm._v("Imbibe Magazine CMS Migration")
       ])
@@ -58561,9 +58615,9 @@ var render = function() {
     _c("div", { staticClass: "row portfolio-box" }, [
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav" },
+        { staticClass: "col-6 project-nav" },
         [
-          _c("router-link", { attrs: { to: "/portfolio/imbibe" } }, [
+          _c("router-link", { attrs: { to: "/portfolio/verizon-meet" } }, [
             _c("span", { staticClass: "nav-anim" }, [_vm._v("←")]),
             _vm._v(" prev\n            ")
           ])
@@ -58573,7 +58627,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "col-sm-6 project-nav text-right" },
+        { staticClass: "col-6 project-nav text-right" },
         [
           _c("router-link", { attrs: { to: "/portfolio/ctgc" } }, [
             _vm._v("\n                next "),
@@ -58589,7 +58643,7 @@ var render = function() {
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "col-sm-1 text-right" },
+            { staticClass: "col-2 col-sm-1 text-right" },
             [
               _c(
                 "router-link",
@@ -58639,7 +58693,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-sm-11" }, [
+    return _c("div", { staticClass: "col-10 col-sm-11" }, [
       _c("h2", { staticClass: "project-title" }, [_vm._v("About this site")])
     ])
   },
